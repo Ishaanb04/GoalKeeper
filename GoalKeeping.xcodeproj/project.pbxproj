@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C9D3B8A2107FCF5002262C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3B892107FCF5002262C3 /* AppDelegate.swift */; };
-		4C9D3B8C2107FCF5002262C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3B8B2107FCF5002262C3 /* ViewController.swift */; };
+		4C9D3B8C2107FCF5002262C3 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3B8B2107FCF5002262C3 /* GoalsVC.swift */; };
 		4C9D3B8F2107FCF5002262C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D3B8D2107FCF5002262C3 /* Main.storyboard */; };
 		4C9D3B922107FCF5002262C3 /* GoalKeeping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3B902107FCF5002262C3 /* GoalKeeping.xcdatamodeld */; };
 		4C9D3B942107FCF6002262C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D3B932107FCF6002262C3 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		4C9D3B862107FCF5002262C3 /* GoalKeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalKeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9D3B892107FCF5002262C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C9D3B8B2107FCF5002262C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C9D3B8B2107FCF5002262C3 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		4C9D3B8E2107FCF5002262C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C9D3B912107FCF5002262C3 /* GoalKeeping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalKeeping.xcdatamodel; sourceTree = "<group>"; };
 		4C9D3B932107FCF6002262C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +56,60 @@
 		4C9D3B882107FCF5002262C3 /* GoalKeeping */ = {
 			isa = PBXGroup;
 			children = (
+				4C9D3BA72107FF32002262C3 /* Model */,
+				4C9D3BA62107FF30002262C3 /* View */,
+				4C9D3BA52107FF2D002262C3 /* Controller */,
+				4C9D3BA82107FF35002262C3 /* Enums */,
+				4C9D3BA42107FF2A002262C3 /* Extentions */,
 				4C9D3B892107FCF5002262C3 /* AppDelegate.swift */,
-				4C9D3B8B2107FCF5002262C3 /* ViewController.swift */,
-				4C9D3B8D2107FCF5002262C3 /* Main.storyboard */,
 				4C9D3B932107FCF6002262C3 /* Assets.xcassets */,
 				4C9D3B952107FCF6002262C3 /* LaunchScreen.storyboard */,
 				4C9D3B982107FCF6002262C3 /* Info.plist */,
-				4C9D3B902107FCF5002262C3 /* GoalKeeping.xcdatamodeld */,
 			);
 			path = GoalKeeping;
+			sourceTree = "<group>";
+		};
+		4C9D3BA42107FF2A002262C3 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extentions;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4C9D3BA52107FF2D002262C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D3B8B2107FCF5002262C3 /* GoalsVC.swift */,
+			);
+			name = Controller;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		4C9D3BA62107FF30002262C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D3B8D2107FCF5002262C3 /* Main.storyboard */,
+			);
+			name = View;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		4C9D3BA72107FF32002262C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D3B902107FCF5002262C3 /* GoalKeeping.xcdatamodeld */,
+			);
+			name = Model;
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+		4C9D3BA82107FF35002262C3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Enums;
+			path = "New Group4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9D3B8C2107FCF5002262C3 /* ViewController.swift in Sources */,
+				4C9D3B8C2107FCF5002262C3 /* GoalsVC.swift in Sources */,
 				4C9D3B8A2107FCF5002262C3 /* AppDelegate.swift in Sources */,
 				4C9D3B922107FCF5002262C3 /* GoalKeeping.xcdatamodeld in Sources */,
 			);
