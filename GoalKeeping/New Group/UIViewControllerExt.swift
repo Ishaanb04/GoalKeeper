@@ -10,19 +10,30 @@ import UIKit
 extension UIViewController{
     
     func presentDetail(_ viewControllerToPresent : UIViewController){
-        let transition = CATransition()
-        transition.duration = 0.2
-        transition.type = kCATransitionPush
-        transition.subtype = kCATransitionFromRight
+        let transition = transitionCreation()
         self.view.window?.layer.add(transition, forKey: kCATransition)
         
         present(viewControllerToPresent, animated: false, completion: nil)
     }
+    func presentSecondaryVC(_ viewControllerToPresent : UIViewController){
+        let transition = transitionCreation()
+        
+        guard let presentVC = presentedViewController else {return }
+        presentVC.dismiss(animated: false) {
+            self.view.window?.layer.add(transition, forKey: kCATransition)
+            self.present(viewControllerToPresent, animated: false, completion: nil)
+        }
+    }
+    func transitionCreation() -> CATransition{
+        let transition = CATransition()
+        transition.duration = 0.3
+        transition.type = kCATransitionPush
+        transition.subtype = kCATransitionFromRight
+        return transition
+    }
     
     func dismissDetails(){
-        let transition = CATransition()
-        transition.duration = 0.2
-        transition.type = kCATransitionPush
+        let transition = transitionCreation()
         transition.subtype = kCATransitionFromLeft
         self.view.window?.layer.add(transition, forKey: kCATransition)
         

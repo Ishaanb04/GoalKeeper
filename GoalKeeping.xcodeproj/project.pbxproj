@@ -20,6 +20,7 @@
 		4C9D3BB221092C12002262C3 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3BB121092C12002262C3 /* UIViewControllerExt.swift */; };
 		4C9D3BB421094C42002262C3 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3BB321094C42002262C3 /* UIViewExt.swift */; };
 		4C9D3BB6210950C1002262C3 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3BB5210950C1002262C3 /* UIButtonExt.swift */; };
+		4C9D3BB821095BE1002262C3 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D3BB721095BE1002262C3 /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		4C9D3BB121092C12002262C3 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		4C9D3BB321094C42002262C3 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		4C9D3BB5210950C1002262C3 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		4C9D3BB721095BE1002262C3 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4C9D3B8B2107FCF5002262C3 /* GoalsVC.swift */,
 				4C9D3BAD21091E7F002262C3 /* GoalsInputVC.swift */,
+				4C9D3BB721095BE1002262C3 /* FinishGoalVC.swift */,
 			);
 			name = Controller;
 			path = "New Group1";
@@ -209,6 +212,7 @@
 				4C9D3BAA21090A54002262C3 /* GoalCell.swift in Sources */,
 				4C9D3BAC210918F2002262C3 /* GoalType.swift in Sources */,
 				4C9D3BB221092C12002262C3 /* UIViewControllerExt.swift in Sources */,
+				4C9D3BB821095BE1002262C3 /* FinishGoalVC.swift in Sources */,
 				4C9D3B8C2107FCF5002262C3 /* GoalsVC.swift in Sources */,
 				4C9D3B8A2107FCF5002262C3 /* AppDelegate.swift in Sources */,
 				4C9D3BB021091EDC002262C3 /* RoundedButton.swift in Sources */,
