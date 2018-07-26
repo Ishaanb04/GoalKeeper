@@ -140,20 +140,41 @@
                                                     <color key="textColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u76-nL-v4W">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.666666666666671"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL COMPLETE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lx-0C-v7a">
+                                                            <rect key="frame" x="51.333333333333343" y="13" width="272.66666666666663" height="44"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="32"/>
+                                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.96470588239999999" green="0.65098039220000004" blue="0.13725490200000001" alpha="0.86948844178082196" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="3lx-0C-v7a" firstAttribute="centerX" secondItem="u76-nL-v4W" secondAttribute="centerX" id="Slp-el-qA3"/>
+                                                        <constraint firstItem="3lx-0C-v7a" firstAttribute="centerY" secondItem="u76-nL-v4W" secondAttribute="centerY" id="lBW-AV-amO"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="9Je-dD-NHe" firstAttribute="leading" secondItem="sWq-Af-wKE" secondAttribute="trailing" constant="10" id="4ab-MO-Z2b"/>
+                                                <constraint firstAttribute="trailing" secondItem="u76-nL-v4W" secondAttribute="trailing" id="6GH-OZ-dHU"/>
                                                 <constraint firstAttribute="bottom" secondItem="9Je-dD-NHe" secondAttribute="bottom" constant="8" id="Bfu-a3-R8l"/>
                                                 <constraint firstAttribute="bottom" secondItem="sWq-Af-wKE" secondAttribute="bottom" id="DK0-m2-Ldx"/>
+                                                <constraint firstItem="u76-nL-v4W" firstAttribute="top" secondItem="DGk-2A-H8w" secondAttribute="top" id="Ib4-UM-NC8"/>
                                                 <constraint firstItem="sWq-Af-wKE" firstAttribute="top" secondItem="DGk-2A-H8w" secondAttribute="top" id="QX8-1E-3fN"/>
                                                 <constraint firstItem="sWq-Af-wKE" firstAttribute="leading" secondItem="DGk-2A-H8w" secondAttribute="leading" constant="10" id="bhV-UT-wdU"/>
+                                                <constraint firstAttribute="bottom" secondItem="u76-nL-v4W" secondAttribute="bottom" id="ljv-YH-Gwv"/>
+                                                <constraint firstItem="u76-nL-v4W" firstAttribute="leading" secondItem="DGk-2A-H8w" secondAttribute="leading" id="myE-Xt-UsX"/>
                                                 <constraint firstItem="9Je-dD-NHe" firstAttribute="top" secondItem="DGk-2A-H8w" secondAttribute="top" constant="8" id="sp8-bo-rgO"/>
                                                 <constraint firstAttribute="trailing" secondItem="9Je-dD-NHe" secondAttribute="trailing" constant="8" id="vos-Ws-F0T"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="completeGoalView" destination="u76-nL-v4W" id="CrD-GN-3jz"/>
                                             <outlet property="goalDiscription" destination="BSH-yZ-3Z3" id="Tt5-x2-UD8"/>
                                             <outlet property="goalProgress" destination="9Je-dD-NHe" id="Vjl-Zr-tCx"/>
                                             <outlet property="goalType" destination="gOl-fW-ivJ" id="oIm-Jh-dg3"/>
@@ -182,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.00492610837438"/>
+            <point key="canvasLocation" x="124" y="132"/>
         </scene>
         <!--Goals InputVC-->
         <scene sceneID="ywU-LB-5DO">
