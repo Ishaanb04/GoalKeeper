@@ -83,7 +83,7 @@ extension GoalsVC : UITableViewDelegate, UITableViewDataSource {
             self.fetchCoreDataObjects()
             tableView.deleteRows(at: [indexPath], with: .automatic)
         }
-        let addProgressAction = UITableViewRowAction(style: .normal, title: "ADD PROGRESS") { (rowAction, indexPath) in
+        let addProgressAction = UITableViewRowAction(style: .normal, title: "ADD 1") { (rowAction, indexPath) in
             self.setProgressForGoal(atIndexPath: indexPath)
             tableView.reloadRows(at: [indexPath], with: .automatic)
         }
