@@ -2,3 +2,6 @@ Goalkeeping is an app that helps you keep track of short and longterm goals. The
 
 
 The app uses Core Data to store data persistantly, and implements actions such delete and add progress to tableViewRows.
+
+
+![img_0153](https://user-images.githubusercontent.com/32113863/45191204-ef122f00-b20f-11e8-9a99-f69c64fc51f2.PNG)
